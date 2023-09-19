@@ -49,7 +49,14 @@ a:visited {
 /**********************************/
 /* 1. Estilos Gerais
 /**********************************/
+html {
+    font-size: 65.5%;
+}
 
+body {
+    font-family: var(--ff-primary);
+    background-color: var(--clr-background);
+}
 
 
 /**********************************/
