@@ -61,9 +61,17 @@ body {
 
 /**********************************/
 /* 2. Navbar
-/**********************************/
+/**********************************/ 
 
+.nav {
+	position: fixed;
 
+	width: 100%;
+	padding: 1.6rem;
+
+	background-color: var(--clr-background);
+	box-shadow: var(--dark-shadow);
+}
 
 /**********************************/
 /* 3. Hero
