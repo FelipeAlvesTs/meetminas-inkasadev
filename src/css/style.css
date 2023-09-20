@@ -93,6 +93,25 @@ body {
 .nav-header__toogle:hover {
 	transform: scale(1.2);
 }
+
+.nav-list {
+	height: 0;
+	overflow: hidden;
+	transition: var(--transition);
+}
+
+.nav-link {
+	padding: 1.6rem;
+	
+	font-size: 1.6rem;
+	font-weight: 900;
+
+	color: var(--clr-black);
+
+	text-transform: capitalize;
+
+	transition: var(--transition);
+}
 /**********************************/
 /* 3. Hero
 /**********************************/
