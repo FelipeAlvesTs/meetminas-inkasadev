@@ -71,6 +71,7 @@ body {
 
 	background-color: var(--clr-background);
 	box-shadow: var(--dark-shadow);
+
 }
 
 .nav-header {
@@ -100,7 +101,9 @@ body {
 	transition: var(--transition);
 }
 
-.nav-link {
+.nav__link {
+	display: block;
+	
 	padding: 1.6rem;
 	
 	font-size: 1.6rem;
@@ -111,6 +114,27 @@ body {
 	text-transform: capitalize;
 
 	transition: var(--transition);
+}
+
+.nav-icons {
+	display: flex;
+}
+
+@media screen and (min-width: 800px) {
+	.nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.nav-list {
+		height: auto;
+		display: flex;
+	}
+
+	.nav-header__toogle {
+		display: none;
+	}
 }
 /**********************************/
 /* 3. Hero
