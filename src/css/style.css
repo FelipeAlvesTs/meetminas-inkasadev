@@ -78,6 +78,20 @@ body {
 	justify-content: space-between;
 	align-items: center;
 }
+
+.nav-header__toogle {
+	border: transparent;
+	background: transparent;
+	color: var(--clr-medium-green);
+	
+	font-size: 3.2rem;
+
+	transition: var(--transition);
+}
+
+.nav-header__toogle:hover {
+	transform: scale(1.2);
+}
 /**********************************/
 /* 3. Hero
 /**********************************/
