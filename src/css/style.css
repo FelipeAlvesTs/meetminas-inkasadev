@@ -73,6 +73,11 @@ body {
 	box-shadow: var(--dark-shadow);
 }
 
+.nav-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 /**********************************/
 /* 3. Hero
 /**********************************/
