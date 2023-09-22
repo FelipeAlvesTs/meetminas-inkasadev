@@ -116,8 +116,13 @@ body {
 	transition: var(--transition);
 }
 
+.nav__link:hover {
+	background-color: var(--clr-medium-green);
+	padding-left: 3.6rem;
+}
+
 .nav-icons {
-	display: flex;
+	display: none;
 }
 
 @media screen and (min-width: 800px) {
@@ -126,15 +131,26 @@ body {
 		justify-content: space-between;
 		align-items: center;
 	}
+	
+	.nav-header__toogle {
+		display: none;
+	}
 
 	.nav-list {
 		height: auto;
 		display: flex;
+	} 
+
+	.nav__link:hover {
+		background-color: transparent;
+		padding: 1.6rem;
+		color: var(--clr-medium-green);
 	}
 
-	.nav-header__toogle {
-		display: none;
+	.nav-icons {
+		display: flex;
 	}
+	
 }
 /**********************************/
 /* 3. Hero
